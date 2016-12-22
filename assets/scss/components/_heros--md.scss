@@ -1,0 +1,53 @@
+@media (min-width: $screen-md-min) {
+
+    .nj-hero--s1 {
+        padding-top: 100px;
+        padding-bottom: 36px;
+
+        .nj-hero--s1__box1 {
+            h1 {
+                font-size: 5.2vw;
+                padding-top: 10px;
+                line-height: 0.8;
+            }
+            p:first-of-type {
+                font-size: 1.65vw;
+                margin-bottom: 15px;
+            }
+            p:last-of-type {
+                font-size: 1.45vw;
+                margin-top: 15px; 
+            }
+        }
+
+        .nj-hero--s1__box2 {
+            padding-top: 30px;
+        }
+
+        .nj-__s1 {
+            width: 70%;
+            font-size: 3.7vw;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+
+    .nj-hero--s2 {
+        .nj-__s1 {
+            p:nth-of-type(1) {
+                font-size: 3.7vw;
+                line-height: 0.8;
+            }
+            p:nth-of-type(2) {
+                font-size: 5vw;
+                line-height: 0.8;
+            }
+            p:nth-of-type(3) {
+                font-size: 1.5vw;
+            }
+        }
+    }
+
+}

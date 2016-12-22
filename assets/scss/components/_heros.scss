@@ -1,0 +1,98 @@
+.nj-hero {
+    padding: 15px;
+    text-align: center;
+}
+.nj-hero--s1 {
+    @extend .nj-hero;
+    background-image: url('../images/bg-hero--purple.png');
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 75px;
+
+    .nj-hero--s1__box1 {
+        h1 {
+            font-size: 40px;
+            @extend .nj-font-bold; 
+            margin-bottom: 5px;
+            margin-top: 10px;
+            line-height: 1;
+        }
+        p:first-of-type {
+            font-size: 18px;
+            @extend .nj-font-light;
+            margin: 0;
+            margin-bottom: 10px;
+            @extend .nj-lh--sm;
+        }
+        p:last-of-type {
+            @extend .nj-font-light;
+            font-size: 18px;
+        }
+    }
+
+    .nj-hero--s1__box2 {
+        padding-top: 83px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nj-hero--s1-space1 {
+        height: 45px;
+    }
+
+    .nj-hero--s1__p1 {
+        @extend .nj-font-light;
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .nj-space {
+        height: 25px;
+    }
+
+    .nj-__s1 {
+        margin-top: 30px;
+    }
+}
+
+.nj-hero--s2 {
+    background-image: url('../images/bg-hero--venue.svg');
+    background-size: 104%;
+    background-position: -10px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 36.9%;
+
+    > div {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .nj-__s1 {
+        color: #fff;
+        padding-top: 14%;
+        text-align: center;
+
+        p:nth-of-type(1) {
+            font-size: 4.7vw;
+            line-height: 0.5;
+            margin-bottom: 6px;
+            @include nj-font('light');
+        }
+        p:nth-of-type(2) {
+            font-size: 7vw;
+            line-height: 0.8;
+            margin-bottom: 3px;
+            @include nj-font('bold');
+        }
+        p:nth-of-type(3) {
+            font-size: 3vw;
+        }
+    }
+}

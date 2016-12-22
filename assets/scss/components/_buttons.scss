@@ -1,0 +1,13 @@
+.nj-btn {
+    @extend .btn;
+    @extend .nj-font-bold;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+
+.nj-btn--primary {
+    @extend .nj-btn;
+    background-color: $primary;
+    color: #fff;
+}

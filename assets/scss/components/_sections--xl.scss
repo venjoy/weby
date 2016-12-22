@@ -1,0 +1,36 @@
+@media (min-width: $screen-xl-min) {
+    .nj-section--s1 {
+        .nj-content {
+            padding-top: 2.5%;
+        }
+    }
+    
+    .nj-site-footer {
+        .nj-__s1 {
+            font-size: 24px;
+        }
+        .nj-__s2 {
+            font-size: 34px;
+            margin-top: 42px;
+        }
+        .nj-__social-icons {
+            margin-top: 18px;
+            margin-bottom: 115px;
+
+            > a {
+                width: 130px;
+                height: 90px;
+                font-size: 53px;
+            }
+        }
+        .nj-__logo {
+            position: relative;
+            > img {
+                position: absolute;
+                width: 358px;
+                left: 40.5%;
+                bottom: -58px;
+            }
+        }
+    }
+}

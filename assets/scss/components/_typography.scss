@@ -1,0 +1,40 @@
+body {
+  @extend .nj-font-regular;
+  color: $black;
+}
+
+h1 {
+  @extend .nj-font-bold;
+  font-size: 24px;
+}
+
+h2 {
+  @extend .nj-font-medium;
+  font-size: 18px;
+}
+
+h3 {
+  @extend .nj-font-medium;
+  font-size: 14px;
+}
+
+p {
+  @extend .nj-font-regular;
+  font-size: 18px;
+}
+
+.nj-title {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+}
+.nj-title--primary {
+    @extend .nj-title;
+    color: $primary;
+    @extend .nj-font-light;    
+}
+.nj-title--s1 {
+  font-size: 36px;
+  color: $primary;
+  @extend .nj-font-light;
+}

@@ -1,0 +1,53 @@
+.nj-card--s1 {
+    padding: 15px 30px;
+    position: relative;
+    background-color: #fff;
+    color: #000;
+    padding-top: 50px;
+    width: 310px;
+
+    > img {
+        width: 97px;
+        height: 97px;
+        position: absolute;
+        top: -45px;
+        left: 35%;
+    }
+
+    p {
+        @extend .nj-font-regular;
+        font-size: 16px;
+        color: $grey-darker;
+    }
+}
+
+.nj-card--s2 {
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    background-color: #fff;
+    
+    img {
+        width: 99px;
+        height: 99px;
+        margin: 0 auto;
+    }
+    h3 {
+        @extend .nj-font-bold;
+        font-size: 18px;
+        color: $primary;
+        margin-bottom: 0;
+    }
+    h4 {
+        @extend .nj-font-bold;
+        font-size: 18px; 
+        margin-top: 5px;       
+    }
+    p {
+        @extend .nj-font-regular;
+        font-size: 16px;
+        color: $grey;
+    }
+}

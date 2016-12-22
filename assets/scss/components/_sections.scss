@@ -1,0 +1,66 @@
+.nj-site-header {
+    position: relative;
+    > .navbar {
+        position: absolute;
+        width: 100%;
+    }
+}
+
+.nj-site-footer {
+    padding: 15px 30px;
+    background-color: $grey-dark;
+    color: $grey-light;
+    text-align: center;
+
+    .nj-__s1 {
+        font-size: 8px;
+    }
+    .nj-__s2 {
+        font-size: 14px;
+    }
+    .nj-__social-icons {
+        text-align: center;
+        margin-bottom: 30px;
+        > a {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            color: $grey-light;
+            font-size: 24px;
+        }
+    }
+
+    .nj-__logo {
+        position: relative;
+        > img {
+            position: absolute;
+            width: 100px;
+            left: 35%;
+            bottom: -20px;
+        }
+    }
+}
+
+.nj-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @media (min-width: $screen-md-min) {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+}
+
+.nj-section--s1 {
+    @extend .nj-section;
+}
+
+.nj-section--s2 {
+    @extend .nj-section;
+}
+
+.nj-section--s3 {
+    z-index: 2;
+    position: relative;
+    background-color: $grey-lighter;
+}

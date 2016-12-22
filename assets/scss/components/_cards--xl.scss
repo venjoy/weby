@@ -1,0 +1,41 @@
+@media (min-width: $screen-xl-min) {
+    .nj-card--s1 {
+        width: 72%;
+        height: 251px;
+        padding-left: 287px;
+        padding-top: 32px;
+        img {
+            top: -35px;
+            left: -89px;
+            width: 320px;
+            height: 320px;
+        }
+        p {
+            font-size: 32px;
+        }
+    }
+
+    .nj-card--s2 {
+        width: 610px;
+        height: 610px;
+        
+        img {
+            width: 210px;
+            height: 210px;
+            margin: 0 auto;
+        }
+        h3 {
+            font-size: 32px;
+            color: $primary;
+            margin-bottom: 0;
+        }
+        h4 {
+            font-size: 32px; 
+            margin-top: 5px;       
+        }
+        p {
+            font-size: 32px;
+            color: $grey;
+        }
+    }
+}

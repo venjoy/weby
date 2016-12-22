@@ -1,0 +1,37 @@
+.nj-m-0 { margin: 0; }
+
+@each $margin in $margins
+{
+  .nj-mt-#{$margin} { margin-top: #{$margin}px; }
+  .nj-mr-#{$margin} { margin-right: #{$margin}px; }
+  .nj-mb-#{$margin} { margin-bottom: #{$margin}px; }
+  .nj-ml-#{$margin} { margin-left: #{$margin}px; }
+}
+
+.nj-lh--m {
+  line-height: 1;
+}
+.nj-lh--sm {
+  line-height: 0.6;
+}
+
+@each $space in $spaces  
+{
+  .nj-space-#{$space} { height: #{$space}px; @extend .clearfix; }
+}
+
+.nj-flex {
+  display: flex;
+}
+
+.nj-flex-center {
+  justify-content: center;
+  align-content: center;
+}
+
+.nj-relative {
+  position: relative;
+}
+.nj-absolute {
+  position: absolute;
+}

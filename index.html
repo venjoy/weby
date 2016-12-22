@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="nujamApp" ng-controller="nujamAppController">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NuJam</title>
+
+    <!-- jquery (needed for bootstrap plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- slickjs -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+    <!-- bootstrap -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Site scripts and styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/main.js"></script>
+    <!-- /Site scripts and styles -->
+
+    <!-- Angular -->
+    <!-- 
+      NOTE: 
+      - ONLY include IF using angular
+      - IF NOT using angular
+        - for every page 
+          - replace ng-include with respective partial code
+          - replace ui-view with respective page code
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-aria.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+    <script src="app/app.js?v=1.0.0"></script>
+    <link rel="stylesheet" href="app/app.css?v=1.0.0">
+    <!-- /Angular -->
+  </head>
+  <body>
+
+    <ng-include src="'app/partials/site-header.html'"></ng-include>
+    <div class="view-container">
+      <ui-view class="view-frame"></ui-view>
+    </div>
+    <ng-include src="'app/partials/site-footer.html'"></ng-include>
+
+  </body>
+</html>

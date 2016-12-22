@@ -1,0 +1,23 @@
+@media (min-width: $screen-md-min) {
+
+.nj-carousel--s2-container {
+    justify-content: flex-end;
+    background-color: transparent;
+}
+
+.nj-carousel--s2-size {
+    width: 68%;
+}
+
+.nj-carousel--s2-absolute {
+    top: -20%;
+}
+.nj-carousel--s2 {
+    .slick-prev { 
+        left: 45%;
+    }
+    .slick-next { 
+        right: 45%; 
+    }
+}
+}

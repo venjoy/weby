@@ -1,0 +1,28 @@
+{
+  "name": "nujam",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Official website for NuJam",
+  "repository": "https://bitbucket.org/xorlabs/nujam",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-rename": "^1.2.2",
+    "pump": "^1.0.1",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "watch": "gulp watch",
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "@xorlabs/scss-utils": "git@bitbucket.org:xorlabs/scss-utils.git",
+    "bootstrap-sass": "3.3.7"
+ }
+}

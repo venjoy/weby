@@ -1,0 +1,23 @@
+@media (min-width: $screen-md-min) {
+    .nj-list {
+        column-count: 2;
+        > li {
+            font-size: 1.5vw;
+            margin-bottom: 8%;
+            margin-top: 0;
+        }
+        > li:nth-of-type(5n + 5) {
+            margin-bottom: 0;
+        }
+    }
+
+    .nj-list--s1 {
+        > li {
+            margin-bottom: 2%;
+
+            span {
+                font-size: 2vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@media (min-width: $screen-xl-min) {
+    .nj-hr {
+        &::after {
+            width: 370px;
+        }
+    }
+}

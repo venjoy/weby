@@ -1,0 +1,31 @@
+.nj-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    > li {
+        margin: 5px;
+        @extend .nj-font-light;
+        font-size: 16px;
+    }
+}
+
+.nj-list--centered {
+    @extend .nj-list;
+    text-align: center;
+}
+
+.nj-list--s1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    column-count: 1;
+    > li {
+        font-size: 1.5vw;
+        margin-bottom: 4%;
+        margin-top: 0;
+    }
+    .nj-icon--bullet {
+        left: 0;
+    }
+}

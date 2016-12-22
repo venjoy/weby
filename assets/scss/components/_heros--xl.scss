@@ -1,0 +1,30 @@
+@media (min-width: $screen-xl-min) {
+
+    .nj-hero--s1 {
+        padding-top: 145px;
+        padding-bottom: 36px;
+
+        .nj-hero--s1__box1 {
+            h1 {
+                font-size: 5.2vw;
+                padding-top: 19px;
+                line-height: 0.8;
+            }
+            p:first-of-type {
+                font-size: 1.65vw;
+                margin-bottom: 30px;
+            }
+            p:last-of-type {
+                font-size: 1.45vw;
+                margin-top: 15px; 
+            }
+        }
+
+        .nj-__s1 {
+            width: 61%;
+            margin-top: 70px;
+        }
+
+    }
+
+}

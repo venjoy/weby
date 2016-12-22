@@ -1,0 +1,22 @@
+@media (min-width: $screen-xl-min) {
+    .nj-cta--s2 {
+        padding-top: 75px;
+        padding-bottom: 75px;
+
+        .nj-cta__btn {
+            font-size: 32px;
+            border-radius: 65px;
+            padding: 26px 103px;
+        }
+
+        .nj-cta__box:first-of-type {
+            margin-right: 266px;
+        }
+
+        .nj-cta__caption {
+            @include nj-font('light'); 
+            font-size: 32px;
+        }
+
+    }
+}
